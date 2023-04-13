@@ -1,0 +1,22 @@
+$navColor: true;
+.nav {
+  @if $navColor {
+    background: #333;
+  } @else {
+    background: orange;
+  }
+  background: #333;
+  height: 70px;
+  width: 100%;
+
+  &__ul {
+    list-style: none;
+    &__li {
+      display: block;
+      &__a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
