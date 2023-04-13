@@ -18,3 +18,7 @@ The @extend directive lets you share set of css properties from one selector to 
 ## IF STATEMENT
 
 It's use to write conditional css
+
+## FOR LOOPS
+
+For loops can run for any number of repetitions, not just the length of an object. You might use this to create a grid layout ( for columns from 1 through 12 ), loop through the color wheel ( for hue from 1 through 360 ), or number your divs with nth-child and generated content.
