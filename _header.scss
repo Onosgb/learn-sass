@@ -2,7 +2,7 @@
 @use "mixins" as *;
 
 .btn-success {
-  @include button(green);
+  @include button($headerColor);
 }
 
 .btn-danger {

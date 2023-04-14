@@ -6,3 +6,9 @@
     width: math.div(100%, 12) * $i;
   }
 }
+
+@for $i from 1 through 12 {
+  .md-#{$i} {
+    height: math.div(100%, 12) * $i;
+  }
+}
